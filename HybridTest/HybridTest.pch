@@ -1,0 +1,25 @@
+//
+//  HybridTest.pch
+//  HybridTest
+//
+//  Created by Adam on 2021/12/18.
+//
+
+#ifndef HybridTest_pch
+#define HybridTest_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+//OC宏文件
+#import "HybridMacro.h"
+
+//OC调用Swift对象所需要引入的头文件
+#import "HybridTest-Swift.h"
+
+
+#endif /* HybridTest_pch */
+
+
+
